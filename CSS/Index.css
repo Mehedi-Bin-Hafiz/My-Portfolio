@@ -314,6 +314,9 @@ body{
     float: right;
     position: absolute;
 }
+#contact div.contactclass div.messageinfo table tr td p{
+    font-weight: bold;
+}
 
 #contact div.contactclass div.messageinfo table tr td input[type=text],[type=email]{
     width: 100%;
@@ -335,8 +338,9 @@ body{
     text-decoration: none;
     color:wheat;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 10px;
     padding:10px 50px;
+    border: none;
 }
 .submitbutton:hover{
     text-decoration: none;
